@@ -1,7 +1,7 @@
 
-public class Configuracion extends javax.swing.JPanel {
+public class ConfiguracionCliente extends javax.swing.JPanel {
 
-    public Configuracion() {
+    public ConfiguracionCliente() {
         initComponents();
     }
 

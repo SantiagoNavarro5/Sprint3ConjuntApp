@@ -74,7 +74,7 @@
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
-              <Component id="Titulo" alignment="0" max="32767" attributes="0"/>
+              <Component id="Titulo" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">

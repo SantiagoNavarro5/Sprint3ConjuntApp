@@ -3,13 +3,13 @@ import java.awt.BorderLayout;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 
-public class Pagina extends javax.swing.JFrame {
+public class PaginaClientes extends javax.swing.JFrame {
 
-    public Pagina() {
+    public PaginaClientes() {
         initComponents();
         ajustarImagenLabel();
         
-        PaginaPrincipal p1 = new PaginaPrincipal ();
+        PaginaPrincipalCliente p1 = new PaginaPrincipalCliente ();
         p1.setSize(350, 328);
         p1.setLocation(0, 0);
         
@@ -232,7 +232,7 @@ public class Pagina extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void PaginaPrincipalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PaginaPrincipalActionPerformed
-        PaginaPrincipal p1 = new PaginaPrincipal ();
+        PaginaPrincipalCliente p1 = new PaginaPrincipalCliente ();
         p1.setSize(350, 328);
         p1.setLocation(0, 0);
         
@@ -243,7 +243,7 @@ public class Pagina extends javax.swing.JFrame {
     }//GEN-LAST:event_PaginaPrincipalActionPerformed
 
     private void CuentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CuentaActionPerformed
-        Cuenta p2 = new Cuenta ();
+        CuentaCliente p2 = new CuentaCliente ();
         p2.setSize(350, 328);
         p2.setLocation(0, 0);
         
@@ -254,7 +254,7 @@ public class Pagina extends javax.swing.JFrame {
     }//GEN-LAST:event_CuentaActionPerformed
 
     private void NotificacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NotificacionesActionPerformed
-        Notificaciones p3 = new Notificaciones ();
+        NotificacionesCliente p3 = new NotificacionesCliente ();
         p3.setSize(350, 328);
         p3.setLocation(0, 0);
         
@@ -265,7 +265,7 @@ public class Pagina extends javax.swing.JFrame {
     }//GEN-LAST:event_NotificacionesActionPerformed
 
     private void ReservacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReservacionesActionPerformed
-        Reservaciones p4 = new Reservaciones ();
+        ReservacionesCliente p4 = new ReservacionesCliente ();
         p4.setSize(350, 328);
         p4.setLocation(0, 0);
         
@@ -276,7 +276,7 @@ public class Pagina extends javax.swing.JFrame {
     }//GEN-LAST:event_ReservacionesActionPerformed
 
     private void VisitasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VisitasActionPerformed
-        Visitas p5 = new Visitas ();
+        VisitasCliente p5 = new VisitasCliente ();
         p5.setSize(350, 328);
         p5.setLocation(0, 0);
         
@@ -287,7 +287,7 @@ public class Pagina extends javax.swing.JFrame {
     }//GEN-LAST:event_VisitasActionPerformed
 
     private void DomiciliosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DomiciliosActionPerformed
-        Domicilios p6 = new Domicilios ();
+        DomiciliosCliente p6 = new DomiciliosCliente ();
         p6.setSize(350, 328);
         p6.setLocation(0, 0);
         
@@ -298,7 +298,7 @@ public class Pagina extends javax.swing.JFrame {
     }//GEN-LAST:event_DomiciliosActionPerformed
 
     private void PagosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PagosActionPerformed
-        Pagos p7 = new Pagos ();
+        PagosCliente p7 = new PagosCliente ();
         p7.setSize(350, 328);
         p7.setLocation(0, 0);
         
@@ -309,7 +309,7 @@ public class Pagina extends javax.swing.JFrame {
     }//GEN-LAST:event_PagosActionPerformed
 
     private void ConfiguracionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConfiguracionActionPerformed
-        Configuracion p8 = new Configuracion ();
+        ConfiguracionCliente p8 = new ConfiguracionCliente ();
         p8.setSize(350, 328);
         p8.setLocation(0, 0);
         
@@ -346,38 +346,6 @@ public class Pagina extends javax.swing.JFrame {
         Logo.setIcon(iconoRedimensionado);
     }
     
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Pagina.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Pagina.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Pagina.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Pagina.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Pagina().setVisible(true);
-            }
-        });
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Configuracion;
